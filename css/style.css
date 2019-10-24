@@ -22,3 +22,7 @@ body{
     height: 20px;
     border: 2px solid #00b7ff;
 }
+
+.min-height-c-f{
+    min-height: 500px;
+}
