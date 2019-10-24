@@ -10,6 +10,18 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/*-----COLOR SECTION-----*/
+
+.bg-primary{
+    background-color:var(--color-primary-white) !important;
+}
+
+.bg-secondary{
+    background-color: var(--color-secondary-blue) !important;
+}
+
+
+
 /*-------------section sacha---------*/
 nav{
     font-size: 15px;
@@ -35,10 +47,3 @@ nav{
     min-height: 500px;
 }
 
-.bg-primary{
-    background-color:var(--color-primary-white) !important;
-}
-
-.bg-secondary{
-    background-color: var(--color-secondary-blue) !important;
-}
