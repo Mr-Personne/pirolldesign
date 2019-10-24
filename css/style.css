@@ -20,8 +20,15 @@ body{
     background-color: var(--color-secondary-blue) !important;
 }
 
+.text-baby-blue{
+    color: var(--color-secondary-blue);
+}
+
 
 /*-------------section sacha---------*/
+nav{
+    font-size: 15px;
+}
 
 /*-------------section quentin---------*/
 
