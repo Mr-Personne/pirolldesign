@@ -1,6 +1,11 @@
 /*-------------section principal---------*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+html:root{
+    --bg-primary: white;
+    --bg-secondary: #10c9c3;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
