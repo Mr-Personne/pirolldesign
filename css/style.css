@@ -40,7 +40,14 @@ body{
     border: 2px solid #00b7ff;
 }
 
-.min-height-c-f{
+
+/*----- HEIGHT AND WIDTH SECTION-----*/
+
+.min-height-c-f-500{
     min-height: 500px;
+}
+
+.min-height-c-f-750{
+    min-height: 750px;
 }
 
