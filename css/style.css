@@ -38,6 +38,8 @@ nav{
 } */
 /*-------------section quentin---------*/
 
+
+
 .carousel-indicators li{
     width: 10px;
     height: 10px;
@@ -63,6 +65,8 @@ nav{
     min-height: 750px;
 }
 
+
+
 /*------BUTTON ERASE----*/
 
 .btn-primary{
@@ -70,3 +74,39 @@ nav{
     border: 1px solid transparent;
     border-radius: 0px;
 }
+
+@media (min-width: 1199.99px) {
+    .min-height-video-resp{
+        min-height: 600px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .min-height-video-resp{
+        min-height: 550px !important;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 991.99px) {
+
+    .min-height-video-resp{
+        min-height: 400px !important;
+    }
+ }
+
+ @media (min-width: 576px) and (max-width: 767.99px) {
+
+    .min-height-video-resp{
+        min-height: 300px !important;
+    }
+
+ }
+
+ @media (max-width: 575.99px) {
+
+    .min-height-video-resp{
+        min-height: 280px !important;
+    }
+
+ }
