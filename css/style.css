@@ -21,7 +21,6 @@ body{
 }
 
 
-
 /*-------------section sacha---------*/
 
 /*-------------section quentin---------*/
@@ -51,3 +50,10 @@ body{
     min-height: 750px;
 }
 
+/*------BUTTON ERASE----*/
+
+.btn-primary{
+    background-color: var(--color-secondary-blue) !important;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
