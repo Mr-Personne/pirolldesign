@@ -3,3 +3,10 @@
 /*-------------section sacha---------*/
 
 /*-------------section quentin---------*/
+
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00b7ff;
+} 
