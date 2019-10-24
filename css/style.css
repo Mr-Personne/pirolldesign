@@ -20,6 +20,10 @@ body{
     background-color: var(--color-secondary-blue) !important;
 }
 
+.text-baby-blue{
+    color: var(--color-secondary-blue);
+}
+
 
 
 /*-------------section sacha---------*/
