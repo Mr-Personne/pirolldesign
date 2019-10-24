@@ -28,7 +28,6 @@ body{
     background-color: rgb(224, 224, 224);
 }
 
-
 /*-------------section sacha---------*/
 nav{
     font-size: 15px;
@@ -53,7 +52,21 @@ nav{
     border: 2px solid #00b7ff;
 }
 
-.min-height-c-f{
+
+/*----- HEIGHT AND WIDTH SECTION-----*/
+
+.min-height-c-f-500{
     min-height: 500px;
 }
 
+.min-height-c-f-750{
+    min-height: 750px;
+}
+
+/*------BUTTON ERASE----*/
+
+.btn-primary{
+    background-color: var(--color-secondary-blue) !important;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
