@@ -1,6 +1,11 @@
 /*-------------section principal---------*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+html:root{
+    --bg-primary: white;
+    --bg-secondary: #10c9c3;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -21,4 +26,8 @@ body{
     width: 20px;
     height: 20px;
     border: 2px solid #00b7ff;
+}
+
+.min-height-c-f{
+    min-height: 500px;
 }
