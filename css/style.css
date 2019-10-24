@@ -24,6 +24,9 @@ body{
     color: var(--color-secondary-blue);
 }
 
+.bg-grey{
+    background-color: rgb(224, 224, 224);
+}
 
 
 /*-------------section sacha---------*/
