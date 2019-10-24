@@ -28,6 +28,16 @@ body{
     background-color: rgb(224, 224, 224);
 }
 
+/*-----FONT SECTION-----*/
+
+.f-style-normal{
+    font-style: inherit;
+}
+
+.font-size-3{
+    font-size: 0.75em;
+}
+
 /*-------------section sacha---------*/
 nav{
     font-size: 15px;
@@ -44,18 +54,22 @@ nav{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #00b7ff;
-    border: 2px solid #00b7ff00;
+    background-color: var(--color-primary-white) ;
+    border: 1px solid #00b7ff00;
 } 
 
 .carousel-indicators li.active{
-    width: 20px;
-    height: 20px;
-    border: 2px solid #00b7ff;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ffffff;
 }
 
 
 /*----- HEIGHT AND WIDTH SECTION-----*/
+
+.min-height-c-f-300{
+    min-height: 500px;
+}
 
 .min-height-c-f-500{
     min-height: 500px;
@@ -108,5 +122,4 @@ nav{
     .min-height-video-resp{
         min-height: 280px !important;
     }
-
  }
