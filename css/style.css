@@ -2,13 +2,29 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 html:root{
-    --bg-primary: white;
-    --bg-secondary: #10c9c3;
+    --color-primary-white: white;
+    --color-secondary-blue: #10c9c3;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+/*-----COLOR SECTION-----*/
+
+.bg-primary{
+    background-color:var(--color-primary-white) !important;
+}
+
+.bg-secondary{
+    background-color: var(--color-secondary-blue) !important;
+}
+
+.text-baby-blue{
+    color: var(--color-secondary-blue);
+}
+
+
 
 /*-------------section sacha---------*/
 nav{
@@ -34,3 +50,4 @@ nav{
 .min-height-c-f{
     min-height: 500px;
 }
+
