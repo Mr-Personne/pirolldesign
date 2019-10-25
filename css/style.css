@@ -52,9 +52,23 @@ nav{
     font-size: 15px;
 }
 
+/*setion prof skill*/
 /* #prof-skill.pl-5{
     padding-left: 10rem!important;
 } */
+/*-----prof skill background-image-----*/
+.bg-image-spirals{
+    background-image: url(../media/prof-test.png);
+    /* background-image: url(../media/spirals2.png); */
+    /* background-position: top right; */
+    /* background-size: 50% 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-fluid.bg-image-spirals{
+    height: 570px;
+}
 
 #num-stat-row .col-lg-1{
     padding: 0;
@@ -98,7 +112,26 @@ nav{
     display: block;
 }
 
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    .bg-image-spirals{
+        background-image: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .bg-image-spirals{
+        background-image: none;
+    }
+
+}
+
 @media (max-width: 575.99px) {
+
+    .bg-image-spirals{
+        background-image: none;
+    }
 
     .w-sm-100{
         width: 100%;
