@@ -84,6 +84,12 @@ iframe{
     min-height: 750px;
 }
 
+/*-----BACKGROUND IMAGE-----*/
+.bg-image-header{
+    background-image: url(../media/banniere-header.png);
+    background-position: center;
+    background-size: cover;
+}
 
 
 /*------BUTTON ERASE----*/
