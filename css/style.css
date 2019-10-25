@@ -42,6 +42,9 @@ body{
 .mw-50px{
     max-width: 50px;
 }
+.font-size-4{
+    font-size: 0.9em;
+}
 
 
 /*-------------section sacha---------*/
@@ -126,7 +129,7 @@ iframe{
 
 /*----- HEIGHT AND WIDTH SECTION-----*/
 
-.min-height-c-f-300{
+/* .min-height-c-f-300{
     min-height: 500px;
 }
 
@@ -136,11 +139,17 @@ iframe{
 
 .min-height-c-f-750{
     min-height: 750px;
-}
+} */
 
 /*-----BACKGROUND IMAGE-----*/
 .bg-image-header{
     background-image: url(../media/banniere-header.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-image-profess{
+    background-image: url(../media/fondprofessionnal.jpg);
     background-position: center;
     background-size: cover;
 }
