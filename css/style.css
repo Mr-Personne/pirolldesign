@@ -66,6 +66,9 @@ nav{
     border: 2px solid #ffffff;
 }
 
+iframe{
+    border : 0;
+}
 
 /*----- HEIGHT AND WIDTH SECTION-----*/
 
