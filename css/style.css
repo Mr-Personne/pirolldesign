@@ -38,6 +38,12 @@ body{
     font-size: 0.75em;
 }
 
+/*-----CUSTOM WIDTH HEIGHT SECTION-----*/
+.mw-50px{
+    max-width: 50px;
+}
+
+
 /*-------------section sacha---------*/
 nav{
     font-size: 15px;
@@ -58,6 +64,7 @@ nav{
     padding-left: 0;
     /* margin-right: 5px; */
     font-size: 15px;
+}
 /*-------------section quentin---------*/
 
 
