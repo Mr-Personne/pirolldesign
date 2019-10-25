@@ -55,9 +55,11 @@ nav{
 } */
 /*-----prof skill background-image-----*/
 .bg-image-spirals{
-    background-image: url(../media/spirals.png);
-    background-position: top right;
-    background-size: 50% 100%;
+    background-image: url(../media/prof-test.png);
+    /* background-image: url(../media/spirals2.png); */
+    /* background-position: top right; */
+    /* background-size: 50% 100%; */
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
