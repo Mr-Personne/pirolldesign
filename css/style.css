@@ -65,6 +65,42 @@ nav{
     /* margin-right: 5px; */
     font-size: 15px;
 }
+
+/*section portfolio*/
+.bg-dark-grey{
+    background-color: gray;
+}
+
+.portfolio-dimensions{
+    width: 340px;
+    height: 300px;
+}
+
+/*pseudo element before pour mettre en place le plus*/
+.portfolio-dimensions::before{
+    content: url("../media/hover-eye.png");
+    display: none;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: var(--white);
+    text-align: center;
+    line-height: 330px;
+    cursor: pointer;
+}
+
+/*pseudo class hover pour changer display du pseudo element before*/
+/*faire 1 : pour pseudo class et 2 :: pour pseudo element (aide distinction)*/
+.portfolio-dimensions:hover:before{
+    display: block;
+}
+
+@media (max-width: 575.99px) {
+
+    .w-sm-100{
+        width: 100%;
+    }
+}
 /*-------------section quentin---------*/
 
 .img-filter-gs{
