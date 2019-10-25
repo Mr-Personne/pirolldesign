@@ -46,6 +46,18 @@ nav{
 /* #prof-skill.pl-5{
     padding-left: 10rem!important;
 } */
+
+#num-stat-row .col-lg-1{
+    padding: 0;
+    /* margin-right: 5px; */
+    max-width: 50px;
+    
+}
+
+#num-stat-row .col-lg-2{
+    padding-left: 0;
+    /* margin-right: 5px; */
+    font-size: 15px;
 /*-------------section quentin---------*/
 
 
