@@ -33,6 +33,10 @@ html {
     color: var(--color-secondary-blue);
 }
 
+.load-more-color{
+    color : #8e8e8e;
+}
+
 .bg-grey{
     background-color: rgb(224, 224, 224);
 }
