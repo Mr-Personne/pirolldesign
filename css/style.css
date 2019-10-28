@@ -162,8 +162,14 @@ nav{
     background-position: center;
 }
 
+.img-service-size{
+    height: 40px;
+}
 
-
+.form-control{
+    border-radius: 0;
+    border: none;
+}
 
 
 @media (min-width: 1199.99px) {
