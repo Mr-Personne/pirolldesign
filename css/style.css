@@ -139,7 +139,7 @@ nav{
 }
 
 .bg-work-5{
-    background-image: url(../media/pcdesign.jpg);
+    background-image: url(../media/screen-code.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -157,10 +157,12 @@ nav{
 }
 
 .bg-work-8{
-    background-image: url(../media/screen-code.jpg);
+    background-image: url(../media/pcdesign.jpg);
     background-size: cover;
     background-position: center;
 }
+
+
 
 
 
