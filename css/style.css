@@ -65,6 +65,11 @@ nav{
     color: var(--color-secondary-blue) !important;
 }
 
+/*pour centrer logo de nav sur la longueur*/
+nav p{
+    margin: 0;
+}
+
 /*setion prof skill*/
 /* #prof-skill.pl-5{
     padding-left: 10rem!important;
