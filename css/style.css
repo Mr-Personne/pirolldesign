@@ -113,6 +113,57 @@ nav{
     display: block;
 }
 
+.bg-work-1{
+
+    background-image: url(../media/time.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-work-2{
+    background-image: url(../media/circuitimprime.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-work-3{
+    background-image: url(../media/keyboard-photo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-work-4{
+    background-image: url(../media/macro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-work-5{
+    background-image: url(../media/pcdesign.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-work-6{
+    background-image: url(../media/webtree.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-work-7{
+    background-image: url(../media/office-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-work-8{
+    background-image: url(../media/screen-code.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
 @media (min-width: 1199.99px) {
     .bg-image-profess{
         background-image: url(../media/fondprofessionnal.jpg);
