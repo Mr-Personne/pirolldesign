@@ -4,6 +4,7 @@
 html:root{
     --color-primary-white: white;
     --color-secondary-blue: #10c9c3;
+    --color-third-dark: black;
 }
 
 body{
@@ -22,6 +23,10 @@ html {
 
 .bg-secondary{
     background-color: var(--color-secondary-blue) !important;
+}
+
+.bg-dark{
+    background-color: var(--color-third-dark) !important;
 }
 
 .text-baby-blue{
