@@ -415,24 +415,24 @@
             if this could be the start of something beautiful.</p>
         </div>
       </div>
-      <form>
+       <form action="traitement.php" method="post" class="needs-validation">
         <div class="row w-100 mx-auto">
           <div class="col-sm-12 col-md-4 col-lg-4 offset-md-2 offset-lg-2 pb-4">
-            <input type="text" class="form-control py-4" placeholder="Full Name">
+            <input type="text" class="form-control py-4" placeholder="Full Name" id="validationTooltip01" required>
           </div>
           <div class="col-sm-12 col-md-4 col-lg-4 pb-4">
-            <input type="email" class="form-control  py-4" placeholder="Your Email">
+            <input type="email" class="form-control  py-4" placeholder="Your Email" required>
           </div>
         </div>
         <div class="row w-100 mx-auto">
           <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 pb-4 ">
-            <input type="text" class="form-control py-4" placeholder="Your Title">
+            <input type="text" class="form-control py-4" placeholder="Your Title" required>
           </div>
         </div>
         <div class="row w-100 mx-auto">
           <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 pb-4">
-            <textarea class="form-control py-4" id="exampleFormControlTextarea1" rows="7"
-              placeholder="Your Comment"></textarea>
+            <textarea class="form-control py-4" id="validationTextarea" rows="7"
+              placeholder="Your Comment" required></textarea>
           </div>
         </div>
         <div class="row w-100 mx-auto">
