@@ -35,6 +35,7 @@ html {
 
 .load-more-color{
     color : #8e8e8e;
+    
 }
 
 .bg-grey{
@@ -187,6 +188,17 @@ nav p{
     background-image: url(../media/pcdesign.jpg);
     background-size: cover;
     background-position: center;
+}
+
+/*need to put transition on original "position" (so to speak) so that when trans end, it does anim too*/
+#load-more{
+    transition: background-color 0.2s linear;
+}
+#load-more:hover{
+    cursor: pointer;
+    color: white !important;
+    background-color: var(--color-secondary-blue) !important;
+    transition: background-color 0.2s linear;
 }
 
 .img-service-size{
