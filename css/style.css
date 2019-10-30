@@ -190,6 +190,50 @@ nav p{
     background-position: center;
 }
 
+.bg-work-9{
+    background-image: url(../media/website.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-work-10{
+    background-image: url(../media/webpage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-work-11{
+    background-image: url(../media/responsive-web-design-concept.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-work-12{
+    background-image: url(../media/searching-the-web.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-work-13{
+    background-image: url(../media/ipad-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-work-14{
+    background-image: url(../media/computer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-work-15{
+    background-image: url(../media/purse-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-work-16{
+    background-image: url(../media/smart-home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 /*need to put transition on original "position" (so to speak) so that when trans end, it does anim too*/
 #load-more{
     transition: background-color 0.2s linear;
