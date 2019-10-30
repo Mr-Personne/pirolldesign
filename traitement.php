@@ -15,10 +15,10 @@
 <div class="container-fluid ">
     <div class="container bg-secondary shadow">
         <div class="row">
-            <div class="col-12 text-center text-white">
-                <h1 class="p-5">Formulaire envoyé !</h1>
+            <div class="col-12 text-center text-white p-sm-5 p-md-5 p-lg-5 p-xl-5">
+                <h1 class="">Formulaire envoyé !</h1>
             </div>
-            <div class="col-12 text-center p-5">
+            <div class="col-12 text-center p-sm-5 p-md-5 p-lg-5 p-xl-5">
                 <a href="index.html">Retour à l'accueil</a></div>
         </div>
     </div>
